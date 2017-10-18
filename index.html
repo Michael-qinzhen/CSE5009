@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Advanced Artificial Intelligence</title>
+    <link rel="stylesheet" href="semanticui/semantic.min.css">
+    <link rel="stylesheet" href="common.css">
+    <srcipt src="semanticui/semantic.min.js"></srcipt>
+    <style>
+        body {
+            font-size: 16px;
+        }
+        .main.container {
+            padding: 2em 0em 7em;
+        }
+        .masthead.segment {
+            padding: 3em 0em;
+        }
+        code {
+            font-size: 0.9em;
+            background: rgb(229, 230, 231);
+            border-radius: 3px;
+        }
+        @media only screen and (min-width: 1200px) {
+            .ui.container {
+                width: 1136px;
+            }
+        }
+        .new,
+        .new-1017 {
+            background: rgba(20, 220, 0, 0.25);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="ui masthead vertical segment">
+        <center>
+            <h1 class="ui header">Machine Learning (机器学习)
+                <div class="sub header">
+                    SUSTech Spring Semester
+                    <br>CSE5009(CS***)
+                    <br>Lecture and Lab Materials
+                    <br>
+                    <a href="http://cse.sustc.edu.cn/cn/people/view/people_id/5/sort_id/9/pid/" target="_blank">Qi HAO</a>
+                </div>
+            </h1>
+        </center>
+    </div>
+
+    <div class="main ui container">
+        <div class="ui positive message">
+            <p>QQ Group: 463715202</p>
+        </div>
+        
+        <!-- Introduction -->
+        <h2 class="ui dividing header">Course Information</h2>
+        <ul>
+            <li>
+                <b>Credits:</b> 3, 
+                <b>Hours:</b> 64
+            </li>
+            <li>
+                <b>Language:</b> Chinese, English
+            </li>
+            <li>
+                <b>Prerequisites:</b> Linear Algebra, Probability and Statistics
+            </li>
+            <li>
+                <b>Outline:</b>
+                <ul>
+                    <li> Fundamental knowledge about machine learning and pattern recognition, from Bayesian approaches to deep learning frameworks through lectures, quizzes and assignments</li>
+                    <li> Machine learning system development methods with Matlab/Python through labs and projects</li>
+                    <li> Model-based and data-driven machine learning system design and integration skills through the final project, literature surveys and reports</li>
+                </ul>
+            </li>
+            <li>
+                <b>Learning Outcomes:</b> Upon finishing this course, students are expected to have a good understanding of challenging optimization and learning problems in AI, and different models and algorithms for tackling these problems.
+            </li>
+            <li>
+                <span class="new-0919">
+                    <b>Textbook:</b>
+                    <a href="https://www.microsoft.com/en-us/research/people/cmbishop/#prml-book" target="_blank">Pattern Recognition and Machine Learning</a>, by Christopher M. Bishop, 2006 Springer.
+                    <a href="http://prml.github.io/" target="_blank"> MatLab implementation</a>
+                </span>
+            </li>
+        </ul>
+
+        <!-- Grading Policy -->
+        <h2 class="ui dividing header">Grading Policy 📝</h2>
+        <ul>
+            <li>In-class test (20%)</li>
+            <li>Assignment (20%), 8~10 times</li>
+            <li>Quiz (20%), 5~10 times</li>
+            <li>Project (20%), 2 in a group</li>
+            <li>Final project (20%)</li>
+            <li>You can submit your assignments <a href="https://sakai.sustc.edu.cn" target="_blank"> here</a>
+        </ul>
+
+        <!-- Lecture Notes -->
+        <h2 class="ui dividing header">
+            Lecture Notes 📜
+        </h2>
+        <table class="ui striped compact celled table">
+            <thead>
+                <tr>
+                    <th>Week</th>
+                    <th>Topic</th>
+                    <th>Resources</th>
+                    <th>Homework</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Introduction</td>
+                    <td>
+                        <a href="lectures/1 Introduction.pdf" target="_blank">[lec notes]</a>
+                    </td>
+                    <td>Slides (page 57)</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Probability Distributions</td>
+                    <td class="new-0919">
+                        <a href="lectures/2 BasicSearch.pdf" target="_blank">[lec notes]</a>
+                    </td>
+                    <td class="new-0919">Slides (page 12/57<del>/63</del>), <a href="solution/hw2" class="new-0928">solution</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Linear Models for Regression and Classification</td>
+                    <td class="new-0926">
+                        <a href="lectures/3 HeuristicSearch.pdf" target="_blank">[lec notes]</a>
+                    </td>
+                    <td class="new-0926">
+                        <a href="lab/3">Lab 3</a>,
+                        <a href="solution/lab3">solution</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Neural Networks</td>
+                    <td class="new-1011">
+                        <a href="lectures/4 GeneralSearchMethods.pdf" target="_blank">[lec notes]</a>
+                    </td>
+                    <td class="new-1011">Slides (page 44)</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Kernel Methods and Sparse Kernel Machine</td>
+                    <td class="new-1017">
+                        <a href="lectures/5 GeneralSearchMethodsII.pdf" target="_blank">[lec notes]</a>
+                    </td>
+                    <td class="new-1017"> Slides (page 48/49)</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Graphical Models</td>
+                    <td>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Mixture Models and EM learning</td>
+                    <td>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Approximate Inference</td>
+                    <td>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Sequential Data</td>
+                    <td>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Bayesian Networks</td>
+                    <td>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>Manifold Learning</td>
+                    <td>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>Deep Learning</td>
+                    <td>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>Reinforcement Learning</td>
+                    <td>
+                    </td>
+                    <td></td>
+                </tr>
+
+            </tbody>
+        </table>
+        <br>
+
+        <!-- Lab Notes -->
+        <h2 class="ui dividing header">
+            Lab Notes 📜
+        </h2>
+        <table class="ui striped compact celled table">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Topic</th>
+                    <th>Resources</th>
+                    <th>Manuals</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Decision Tree</td>
+                    <td> </td>
+                    <td> </td>
+                </tr>
+                
+                <tr>
+                    <td>2</td>
+                    <td>Clustering</td>
+                    <td> </td>
+                    <td> </td>
+                </tr>
+                
+                <tr>
+                    <td>3</td>
+                    <td>Neural Network</td>
+                    <td> </td>
+                    <td> </td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+            
+            
+        <h2 class="ui dividing header">Final Project</h2>
+        <ol>
+            <li>
+                <a href="lab/1">AI Systems Demonstrations</a>
+            </li>
+            <li>
+                <a href="lab/3">Programming Assignment 1</a>
+            </li>
+            <li>
+                <a href="solution/lab3">Programming Assignment 1 - Solution</a>
+            </li>
+        </ol>
+
+        <!-- Reference Reading -->
+        <h2 class="ui dividing header">Reference Reading 📖</h2>
+        <ul>
+            <li>
+                <b>Books</b>
+                <ul>
+                    <li> Deep Learning, by Bengio</li>
+                    <li> Reinforcement Learning: An Introduction, by Richard S. Sutton</li>
+                    <li> The Elements of Statistical Learning Data Mining, Inference, and Prediction</li>
+                </ul>
+            </li>
+            <li>
+                <b>Papers</b>
+                <ul>
+                    <li>Ghahramani Z. Probabilistic machine learning and artificial intelligence. Nature, 2015, 521(7553):452-9</li>
+                    <li>Lecun Y, Bengio Y, Hinton G. Deep learning. Nature, 2015, 521(7553):436-44</li>
+                    <li>Littman M L. Reinforcement learning improves behaviour from evaluative feedback. Nature, 2015, 521(7553):445-51. </li>
+                </ul>
+            </li>
+            <br>
+        </ul>
+
+        <div class="ui divider"></div>
+        <p>
+            <i>Last updated: 2017/<span class="new-1011">10/18</span></i>
+        </p>
+    </div>
+</body>
+
+</html>
